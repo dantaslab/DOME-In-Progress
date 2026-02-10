@@ -1,0 +1,8 @@
+**/.DS_Store
+**/__pycache__
+**/.ruff_cache
+**/*.tsv
+**/*.csv
+**/*.yaml
+**/.vscode
+**/.ipynb_checkpoints
