@@ -1,0 +1,336 @@
+2025-11-07 18:18:59.362712 INFO::Writing function arguments to log file
+2025-11-07 18:18:59.374589 DEBUG::Function arguments
+2025-11-07 18:18:59.384588 DEBUG::Output folder: ../Maaslin2/Cohort-Non-Farmer-Reference/
+2025-11-07 18:18:59.385059 DEBUG::Min Abundance: 0.000000
+2025-11-07 18:18:59.385529 DEBUG::Min Prevalence: 0.100000
+2025-11-07 18:18:59.385986 DEBUG::Normalization: TSS
+2025-11-07 18:18:59.386444 DEBUG::Transform: LOG
+2025-11-07 18:18:59.386915 DEBUG::Analysis method: LM
+2025-11-07 18:18:59.387367 DEBUG::Max significance: 0.250000
+2025-11-07 18:18:59.387835 DEBUG::Random effects: Subject,Site,Year,Season
+2025-11-07 18:18:59.388282 DEBUG::Fixed effects: Cohort
+2025-11-07 18:18:59.388744 DEBUG::Correction method: BH
+2025-11-07 18:18:59.389195 DEBUG::Standardize: TRUE
+2025-11-07 18:18:59.389653 DEBUG::Cores: 8
+2025-11-07 18:18:59.390091 INFO::Verifying options selected are valid
+2025-11-07 18:18:59.436252 INFO::Determining format of input files
+2025-11-07 18:18:59.4374 INFO::Input format is data samples as rows and metadata samples as rows
+2025-11-07 18:18:59.439936 DEBUG::A total of 2208 samples were found in both the data and metadata
+2025-11-07 18:18:59.440365 DEBUG::Reordering data/metadata to use same sample ordering
+2025-11-07 18:18:59.465229 INFO::Formula for random effects: expr ~ (1 | Subject) + (1 | Site) + (1 | Year) + (1 | Season)
+2025-11-07 18:18:59.466596 INFO::Formula for fixed effects: expr ~  Cohort
+2025-11-07 18:18:59.467582 INFO::Factor detected for categorial metadata 'Cohort'. Provide a reference argument or manually set factor ordering to change reference level.
+2025-11-07 18:18:59.468436 INFO::Filter data based on min abundance and min prevalence
+2025-11-07 18:18:59.469283 INFO::Total samples in data: 2208
+2025-11-07 18:18:59.470176 INFO::Min samples required with min abundance for a feature not to be filtered: 220.800000
+2025-11-07 18:18:59.746152 INFO::Total filtered features: 783
+2025-11-07 18:18:59.747708 INFO::Filtered feature names from abundance and prevalence filtering: Brochothrix, Janthinobacterium, Pasteurella, Marinilactibacillus, Algoriella, Yersinia, Ralstonia, Shewanella, Chishuiella, Alysiella, Soonwooa, Pseudarcobacter, Deinococcus, Bavariicoccus, Citrobacter, Kroppenstedtia, Burkholderia.Caballeronia.Paraburkholderia, Trueperella, Fructilactobacillus, Limosilactobacillus, Aeromonas, Achromobacter, Proteus, Ureibacillus, Subdoligranulum, Granulicatella, Chungangia, Aequorivita, Desemzia, Eikenella, Planomicrobium, Bradyrhizobium, Marinomonas, Pseudoalteromonas, Gallicola, Suttonella, Secundilactobacillus, Caviibacter, Sinobaca, Lacticaseibacillus, Peptostreptococcus, Negativicoccus, Caldibacillus, Janibacter, Lautropia, Exiguobacterium, Trichococcus, Corticicoccus, Fusicatenibacter, Duganella, Marinobacter, Rummeliibacillus, Ornithobacterium, Solibacillus, Bibersteinia, Simplicispira, CAG.352, Garicola, Helcococcus, Clostridium.sensu.stricto.13, Vibrio, Conchiformibius, Marinococcus, Klebsiella, Thauera, Lachnospiraceae.UCG.009, Micrococcus, Parvimonas, Arthrobacter, Kingella, Xanthomonas, Oceanobacter, Kosakonia, Succinivibrionaceae.UCG.001, Tetragenococcus, Falsiporphyromonas, Faecalitalea, Dialister, Alkalibacterium, Klenkia, Oerskovia, Murdochiella, Paucilactobacillus, Limnohabitans, Lachnoclostridium, Erysipelatoclostridium, Aeromicrobium, Cryobacterium, Lapidilactobacillus, Gemmobacter, Saccharomonospora, Kineococcus, Rathayibacter, S5.A14a, Alloiococcus, Erysipelotrichaceae.UCG.003, Gulosibacter, Thermobifida, Prevotella_9, Anaerovibrio, Iamia, Aminobacter, Oligella, Rheinheimera, Hafnia.Obesumbacterium, Erwinia, Neisseria, Parabacteroides, Komagataeibacter, Rivicola, Providencia, Paenalcaligenes, Empedobacter, Moheibacter, Hydrogenophilus, Dermacoccus, Alcaligenes, Incertae.Sedis, Candidatus.Stoquefichus, Raoultella, Fermentimonas, UCG.002, Garciella, Olsenella, Ochrobactrum, Filifactor, Fenollaria, Polaromonas, Succinivibrionaceae.UCG.002, Geobacillus, Peptococcus, Capnocytophaga, Solirubrobacter, Streptomyces, Vagococcus, Luteibacter, Fructobacillus, Aggregatibacter, Ignatzschineria, Mobilicoccus, Roseomonas, Thermus, Leptotrichia, Aquamicrobium, Falsirhodobacter, Morganella, Skermanella, Pseudorhodoferax, Virgibacillus, Salana, Globicatella, GWE2.31.10, Chryseomicrobium, Buttiauxella, Clavibacter, Membranicola, Lachnospiraceae.NK4A136.group, Gardnerella, Aurantimonas, Xylophilus, Caulobacter, Candidatus.Soleaferrea, Aeribacillus, Alkaliflexus, Proteiniclasticum, Brumimicrobium, Tissierella, EMP.G18, Alishewanella, Marmoricola, Algoriphagus, Anaerostipes, Kytococcus, Quadrisphaera, Tolumonas, Pygmaiobacter, Aestuariicella, Millisia, Brucella, Novosphingobium, Liquorilactobacillus, Anaerovorax, Sharpea, Pseudokineococcus, Sphaerotilus, Gemmatimonas, Serratia, Negativibacillus, Ottowia, Shuttleworthia, Terrisporobacter, Promicromonospora, Arenimonas, X.Anaerorhabdus..furcosa.group, Falsochrobactrum, Weeksella, Idiomarina, Breznakia, Methylocaldum, Sporosarcina, Saccharofermentans, Pseudogracilibacillus, Paenisporosarcina, Timonella, Lachnospiraceae.FCS020.group, Proteiniphilum, Ezakiella, Ruania, Serinicoccus, Yaniella, Thermobacillus, Poseidonibacter, Ferribacterium, Intestinibacter, Rahnella, Abiotrophia, Pusillimonas, Fibrobacter, Enteractinococcus, Brevibacillus, Verticiella, Mycobacterium, Methylophaga, Psychrobacillus, Serinibacter, Centipeda, Nissabacter, Neomicrococcus, Myroides, Sneathia, Defluviitaleaceae.UCG.011, Dyadobacter, Hylemonella, Jonesia, Megasphaera, Advenella, Alkanindiges, Sinibacillus, Anaeroplasma, Kandleria, Collinsella, Caloribacterium, Schleiferilactobacillus, Prevotellaceae.Ga6A1.group, Pedococcus.Phycicoccus, Salinimicrobium, Falsibacillus, Thiopseudomonas, Marisediminicola, Arsenicicoccus, Histophilus, Dermabacter, Macellibacteroides, Clostridium.sensu.stricto.3, Ulvibacter, Oxalicibacterium, Lachnospiraceae.FE2018.group, Defluviicoccus, Anaerocolumna, Lacticigenium, Gluconobacter, Pseudoglutamicibacter, Zoogloea, Succiniclasticum, Fluviicola, Ruminofilibacter, Lachnospiraceae.UCG.002, Altererythrobacter, Glycomyces, Corticibacterium, Blastococcus, Actinomycetospora, Victivallis, Oscillibacter, Sutterella, Microvirga, Pseudonocardia, Taibaiella, Pluralibacter, Varibaculum, Truepera, Lysobacter, Scardovia, Cardiobacterium, Coprobacillus, X.Eubacterium..ruminantium.group, SN8, UCG.004, Aliidiomarina, X.Ruminococcus..gnavus.group, Sulfurospirillum, Flavonifractor, Mucilaginibacter, Gelidibacter, Herbiconiux, Hypnocyclicus, Paludibacter, Rhodopseudomonas, Pelagibacterium, Gaiella, Odoribacter, Erythrobacter, Pseudocitrobacter, Ramlibacter, Antarcticibacterium, Saccharibacillus, Amylolactobacillus, Parapusillimonas, Acetobacterium, Eremococcus, Atopobium, Faecalibacterium, Nosocomiicoccus, GKS98.freshwater.group, Turicella, Marinicella, Symbiobacterium, Aeriscardovia, Frigoribacterium, BIyi10, Pseudoxanthomonas, Hyphomicrobium, Georgenia, Qipengyuania, Planktosalinus, Clostridium.sensu.stricto.12, Paenochrobactrum, Sediminibacterium, Peptoclostridium, Rhodoferax, Ornithinibacillus, Aliihoeflea, Galbitalea, Lachnospiraceae.NK4B4.group, Intrasporangium, Lachnospiraceae.UCG.007, Arcanobacterium, Noviherbaspirillum, Bosea, Selenomonas, Oceanisphaera, Luteolibacter, Nakamurella, Bordetella, Variovorax, Cellulomonas, Patulibacter, Sphingorhabdus, Syntrophococcus, Zhihengliuella, Domibacillus, Pelomonas, Archangium, Photobacterium, Dielma, Lampropedia, Fournierella, Catenibacterium, Candidatus.Nitrocosmicus, Leptolyngbya.PCC.6306, Hydrogenophaga, Acidovorax, Niastella, Solobacterium, Megamonas, Filomicrobium, Mariniflexile, Howardella, Vitreoscilla, p.1088.a5.gut.group, Prevotellaceae.YAB2003.group, Arcticibacter, Cellulosimicrobium, Moryella, Acidaminococcus, Giesbergeria, Cobetia, Melittangium, Pseudactinotalea, Actinoplanes, Caproiciproducens, Butyrivibrio, Rahnella1, Sediminivirga, CAG.56, Paenarthrobacter, Amaricoccus, Paludicola, Persicitalea, F0332, Afipia, Methanocorpusculum, Robbsia, Defluviimonas, Xylella, Fastidiosipila, Kineosporia, Erysipelotrichaceae.UCG.009, Dysgonomonas, Izhakiella, Corticibacter, Aquabacterium, Enterorhabdus, Leadbetterella, Candidatus.Obscuribacter, Lachnospira, Eionea, Roseimaritima, Dechloromonas, BD1.7.clade, Prauserella, Ferruginibacter, Oceanimonas, Aneurinibacillus, Sphingopyxis, Anaerocella, Family.XIII.UCG.001, Aquaspirillum, Brachymonas, Incertae.Sedis.1, Novibacillus, Sphingobium, Franconibacter, DNF00809, Spirosoma, UBA6140, Anaerosalibacter, P3OB.42, Auricoccus.Abyssicoccus, Actinotalea, Psychromonas, Faecalibaculum, Lachnoanaerobaculum, Desulfovibrio, Pyramidobacter, Antricoccus, X.Eubacterium..ventriosum.group, Streptosporangium, Edaphobaculum, Williamsia, Ruminiclostridium, Laceyella, Sumerlaea, Micromonospora, UTBCD1, Blastocatella, Alcanivorax, Methylotenera, Listeria, Wohlfahrtiimonas, Bryobacter, Shinella, Pigmentiphaga, Camelimonas, X.Bacteroides..pectinophilus.group, Simonsiella, Haloactinobacterium, Halococcus, Candidimonas, Eisenbergiella, Luteitalea, Cereibacter, Bombilactobacillus, Agromyces, Demetria, Corallococcus, Planifilum, Erysipelotrichaceae.UCG.002, Niabella, Catenisphaera, Piscinibacter, Tepidiphilus, Frederiksenia, Oblitimonas, Galbibacter, Butyricicoccus, X.Eubacterium..tenue.group, Nitrincola, Pannonibacter, Gordonia, Cryomorpha, Clostridium.sensu.stricto.6, Rhizobacter, Ornithinibacter, Terrabacter, Kineosphaera, Solitalea, Lachnospiraceae.ND3007.group, Oligoflexus, Mariniradius, Ketogulonicigenium, Floricoccus, Rubritepida, Gracilibacillus, Flectobacillus, Terribacillus, Mesorhizobium, Raoultibacter, Azoarcus, Acetoanaerobium, X.Eubacterium..siraeum.group, Sporolactobacillus, Steroidobacter, X.Cytophaga..xylanolytica.group, Tannerella, Sphaerobacter, Limnobacter, Pseudobutyrivibrio, Bradymonas, Aquiflexum, Rickettsia, Actinopolymorpha, Rhodobacter, Xanthobacter, Lachnotalea, Dubosiella, Sedimentibacter, Neoscardovia, Rubellimicrobium, Cytophaga, C1.B045, X.Eubacterium..fissicatena.group, Puia, Phytohabitans, Blastomonas, Pedomicrobium, MN.122.2a, Oribacterium, Ilumatobacter, Ammoniibacillus, Tychonema.CCAP.1459.11B, Anoxybacillus, Halolactibacillus, Angelakisella, Thermomonospora, Dyella, Pseudofulvimonas, Peredibacter, Desulfomicrobium, Holdemanella, Necropsobacter, Fontibacillus, Kangiella, Acidibacter, Anaerofustis, Pseudoflavonifractor, Tabrizicola, X.Eubacterium..xylanophilum.group, Methylobacter, Kaistia, Youngiibacter, Stomatobaculum, Nannocystis, Rhodanobacter, Thermopolyspora, Anaerosinus, Mobiluncus, OLB17, Amphibacillus, Tuzzerella, Cloacibacterium, Pirellula, Anseongella, Riemerella, Desulfobulbus, Bergeriella, Rickettsiella, GCA.900066575, Methylopila, Savagea, Clostridium.sensu.stricto.11, UBA1819, Flaviaesturariibacter, Tardiphaga, Quinella, Enteroscipio, Streptobacillus, Haoranjiania, alphaI.cluster, Zobellella, Pseudohongiella, Thiothrix, Paramesorhizobium, Erysipelotrichaceae.UCG.008, Delftia, Amnibacterium, E1B.B3.114, Dermatophilus, Proteocatella, Pseudoramibacter, Aurantisolimonas, Marinobacterium, DMER64, Pseudaminobacter, Tetrasphaera, Stackebrandtia, Ensifer, FD2005, Nonomuraea, Gluconacetobacter, Abditibacterium, Psychroflexus, Gilvimarinus, Desulfitispora, Tumebacillus, Rhodovarius, Thermobispora, IMCC26207, X1174.901.12, Lachnospiraceae.XPB1014.group, Anaerobiospirillum, Oceaniovalibus, OLB8, Inhella, Blastopirellula, Tianweitania, Cnuella, Roseococcus, Eubacterium, Natranaerovirga, Caldicoprobacter, Microvirgula, Schlegelella, Prevotellaceae.NK3B31.group, Pectobacterium, Nitrobacter, Candidatus.Udaeobacter, Fretibacterium, Chromohalobacter, Pajaroellobacter, Verrucomicrobium, Nitratireductor, Helcobacillus, Microbacterium, Porphyrobacter, Nitrosomonas, Chryseolinea, Asticcacaulis, Hungatella, Bartonella, Gordonibacter, Cystobacter, Moellerella, Acidiphilium, Rhodopirellula, Phenylobacterium, Herbinix, Bilophila, Pseudochrobactrum, CK06.06.Mud.MAS4B.21, Vulgatibacter, Methylomicrobium, Ercella, Intestinimonas, Hirschia, Paenirhodobacter, Thermasporomyces, Methylophilus, Pir4.lineage, Ammoniphilus, Parapedobacter, Castellaniella, Slackia, Couchioplanes, Clostridium.sensu.stricto.9, Parvibacter, Proteiniborus, Coriobacteriaceae.UCG.002, Cerasicoccus, Chelatococcus, UCG.008, Salinicola, Fulvimonas, T2WK15B57, Curvibacter, Epulopiscium, Acidipropionibacterium, Lactovum, Myxococcus, Candidatus.Methanoplasma, Dokdonella, Candidatus.Methanogranum, Parvibaculum, Aurantivirga, Actinomadura, Belliella, Parasegetibacter, Haliea, Oscillospira, Terrimonas, Arcicella, Hansschlegelia, Legionella, Vicingus, Bdellovibrio, Candidatus.Saccharimonas, Papillibacter, Fibrella, Bogoriella, H1, Elusimicrobium, Martelella, Soehngenia, Haliangium, Flexilinea, Gryllotalpicola, Psychroglaciecola, Z20, hoa5.07d05.gut.group, Planctomicrobium, Arenibacter, Confluentibacter, OM27.clade, Flavitalea, Terriglobus, Aetherobacter, Tamlana, X.Acetivibrio..ethanolgignens.group, Siphonobacter, Bacteriovorax, Agaricicola, Anaerolinea, Bernardetia, LD29, Cavicella, Pseudorhodoplanes, Desulfobacterium, Sandaracinus, Methylobacillus, Ureaplasma, Salipaludibacillus, Pseudolabrys, Lachnospiraceae.UCG.008, Ellin6055, Candidatus.Xiphinematobacter, Rhodohalobacter, Adhaeribacter, Marinimicrobium, F0058, Sorangium, Geminicoccus, Belnapia, Escherichia.Shigella, X.Eubacterium..yurii.group, Tyzzerella, Meiothermus, Rubrobacter, Syner.01, LNR.A2.18, Reyranella, Desulfosporosinus, Veillonellaceae.UCG.001, Mumia, Chthoniobacter, Salinirepens, Porticoccus, TM7a, Wenzhouxiangella, Methanosarcina, Halocella, Lentimicrobium, Emticicia, possible.genus.06, JGI.0001001.H03, Rhodocytophaga, Haloferula, Nitrospira, Johnsonella, Haloimpatiens, Conexibacter, Aridibacter, Candidatus.Alysiosphaera, Larkinella, Vicinamibacter, Stenotrophobacter, Starkeya, Methanimicrococcus, Rubrivirga, Paludisphaera, Candidatus.Berkiella, Roseimarinus, SH.PL14, Puniceicoccus
+2025-11-07 18:18:59.76083 INFO::Total filtered features with variance filtering: 0
+2025-11-07 18:18:59.761702 INFO::Filtered feature names from variance filtering:
+2025-11-07 18:18:59.762478 INFO::Running selected normalization method: TSS
+2025-11-07 18:18:59.789007 INFO::Applying z-score to standardize continuous metadata
+2025-11-07 18:18:59.798028 INFO::Running selected transform method: LOG
+2025-11-07 18:18:59.837375 INFO::Running selected analysis method: LM
+2025-11-07 18:18:59.840102 INFO::Creating cluster of 8 R processes
+2025-11-07 18:19:19.132025 INFO::Counting total values for each feature
+2025-11-07 18:19:19.156623 INFO::Writing filtered data to file ../Maaslin2/Cohort-Non-Farmer-Reference//features/filtered_data.tsv
+2025-11-07 18:19:19.476462 INFO::Writing filtered, normalized data to file ../Maaslin2/Cohort-Non-Farmer-Reference//features/filtered_data_norm.tsv
+2025-11-07 18:19:19.787854 INFO::Writing filtered, normalized, transformed data to file ../Maaslin2/Cohort-Non-Farmer-Reference//features/filtered_data_norm_transformed.tsv
+2025-11-07 18:19:20.334252 INFO::Writing residuals to file ../Maaslin2/Cohort-Non-Farmer-Reference//fits/residuals.rds
+2025-11-07 18:19:20.543891 INFO::Writing fitted values to file ../Maaslin2/Cohort-Non-Farmer-Reference//fits/fitted.rds
+2025-11-07 18:19:20.741651 INFO::Writing extracted random effects to file ../Maaslin2/Cohort-Non-Farmer-Reference//fits/ranef.rds
+2025-11-07 18:19:20.747301 INFO::Writing all results to file (ordered by increasing q-values): ../Maaslin2/Cohort-Non-Farmer-Reference//all_results.tsv
+2025-11-07 18:19:20.752021 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): ../Maaslin2/Cohort-Non-Farmer-Reference//significant_results.tsv
+2025-11-07 18:19:20.75538 INFO::Writing heatmap of significant results to file: ../Maaslin2/Cohort-Non-Farmer-Reference//heatmap.pdf
+2025-11-07 18:19:22.015888 INFO::Writing association plots (one for each significant association) to output folder: ../Maaslin2/Cohort-Non-Farmer-Reference/
+2025-11-07 18:19:22.024196 INFO::Plotting associations from most to least significant, grouped by metadata
+2025-11-07 18:19:22.025258 INFO::Plotting data for metadata number 1, Cohort
+2025-11-07 18:19:22.027773 INFO::Creating boxplot for categorical data, Cohort vs Romboutsia
+2025-11-07 18:19:22.389701 INFO::Creating boxplot for categorical data, Cohort vs Weissella
+2025-11-07 18:19:22.690623 INFO::Creating boxplot for categorical data, Cohort vs UCG.005
+2025-11-07 18:19:22.949917 INFO::Creating boxplot for categorical data, Cohort vs Turicibacter
+2025-11-07 18:19:23.468993 INFO::Creating boxplot for categorical data, Cohort vs Paeniclostridium
+2025-11-07 18:19:23.734218 INFO::Creating boxplot for categorical data, Cohort vs Clostridium.sensu.stricto.1
+2025-11-07 18:19:24.002179 INFO::Creating boxplot for categorical data, Cohort vs Lachnospiraceae.NK3A20.group
+2025-11-07 18:19:24.260491 INFO::Creating boxplot for categorical data, Cohort vs Pseudomonas
+2025-11-07 18:19:24.542137 INFO::Creating boxplot for categorical data, Cohort vs Bacteroides
+2025-11-07 18:19:24.817795 INFO::Creating boxplot for categorical data, Cohort vs Clostridioides
+2025-11-07 18:19:25.084023 INFO::Creating boxplot for categorical data, Cohort vs Christensenellaceae.R.7.group
+2025-11-07 18:19:25.342109 INFO::Creating boxplot for categorical data, Cohort vs Rikenellaceae.RC9.gut.group
+2025-11-07 18:19:25.595087 INFO::Creating boxplot for categorical data, Cohort vs Jeotgalibaca
+2025-11-07 18:19:25.858863 INFO::Creating boxplot for categorical data, Cohort vs Pediococcus
+2025-11-07 18:19:26.11316 INFO::Creating boxplot for categorical data, Cohort vs Lentilactobacillus
+2025-11-07 18:19:26.370093 INFO::Creating boxplot for categorical data, Cohort vs Romboutsia
+2025-11-07 18:19:26.618474 INFO::Creating boxplot for categorical data, Cohort vs Lactiplantibacillus
+2025-11-07 18:19:26.890094 INFO::Creating boxplot for categorical data, Cohort vs Enterococcus
+2025-11-07 18:19:27.148022 INFO::Creating boxplot for categorical data, Cohort vs UCG.005
+2025-11-07 18:19:27.409953 INFO::Creating boxplot for categorical data, Cohort vs Prevotellaceae.UCG.003
+2025-11-07 18:19:27.673087 INFO::Creating boxplot for categorical data, Cohort vs Lactobacillus
+2025-11-07 18:19:27.927258 INFO::Creating boxplot for categorical data, Cohort vs Acetobacter
+2025-11-07 18:19:28.188381 INFO::Creating boxplot for categorical data, Cohort vs Turicibacter
+2025-11-07 18:19:28.436256 INFO::Creating boxplot for categorical data, Cohort vs Monoglobus
+2025-11-07 18:19:28.704009 INFO::Creating boxplot for categorical data, Cohort vs Leuconostoc
+2025-11-07 18:19:28.952395 INFO::Creating boxplot for categorical data, Cohort vs NK4A214.group
+2025-11-07 18:19:29.207227 INFO::Creating boxplot for categorical data, Cohort vs Paeniclostridium
+2025-11-07 18:19:29.455122 INFO::Creating boxplot for categorical data, Cohort vs Prevotellaceae.UCG.004
+2025-11-07 18:19:29.715777 INFO::Creating boxplot for categorical data, Cohort vs Ignavigranum
+2025-11-07 18:19:29.970597 INFO::Creating boxplot for categorical data, Cohort vs Companilactobacillus
+2025-11-07 18:19:30.220245 INFO::Creating boxplot for categorical data, Cohort vs Aerosphaera
+2025-11-07 18:19:30.481232 INFO::Creating boxplot for categorical data, Cohort vs UCG.001
+2025-11-07 18:19:30.751013 INFO::Creating boxplot for categorical data, Cohort vs Phascolarctobacterium
+2025-11-07 18:19:31.01017 INFO::Creating boxplot for categorical data, Cohort vs Cellulosilyticum
+2025-11-07 18:19:31.255661 INFO::Creating boxplot for categorical data, Cohort vs Pedobacter
+2025-11-07 18:19:31.509732 INFO::Creating boxplot for categorical data, Cohort vs Kurthia
+2025-11-07 18:19:31.76889 INFO::Creating boxplot for categorical data, Cohort vs Loigolactobacillus
+2025-11-07 18:19:32.014546 INFO::Creating boxplot for categorical data, Cohort vs Neorhizobium
+2025-11-07 18:19:32.267118 INFO::Creating boxplot for categorical data, Cohort vs Clostridium.sensu.stricto.1
+2025-11-07 18:19:32.516651 INFO::Creating boxplot for categorical data, Cohort vs Caryophanon
+2025-11-07 18:19:32.782279 INFO::Creating boxplot for categorical data, Cohort vs Lachnospiraceae.UCG.010
+2025-11-07 18:19:33.040408 INFO::Creating boxplot for categorical data, Cohort vs Curtobacterium
+2025-11-07 18:19:33.289282 INFO::Creating boxplot for categorical data, Cohort vs Lachnospiraceae.NK3A20.group
+2025-11-07 18:19:33.543897 INFO::Creating boxplot for categorical data, Cohort vs Mailhella
+2025-11-07 18:19:33.801031 INFO::Creating boxplot for categorical data, Cohort vs Ligilactobacillus
+2025-11-07 18:19:34.062284 INFO::Creating boxplot for categorical data, Cohort vs Succinivibrio
+2025-11-07 18:19:34.321681 INFO::Creating boxplot for categorical data, Cohort vs Dorea
+2025-11-07 18:19:34.566035 INFO::Creating boxplot for categorical data, Cohort vs Lachnospiraceae.AC2044.group
+2025-11-07 18:19:34.820206 INFO::Creating boxplot for categorical data, Cohort vs HT002
+2025-11-07 18:19:35.0711 INFO::Creating boxplot for categorical data, Cohort vs Aliicoccus
+2025-11-07 18:19:35.354128 INFO::Creating boxplot for categorical data, Cohort vs X.Eubacterium..brachy.group
+2025-11-07 18:19:35.61606 INFO::Creating boxplot for categorical data, Cohort vs Devosia
+2025-11-07 18:19:35.872251 INFO::Creating boxplot for categorical data, Cohort vs Oceanobacillus
+2025-11-07 18:19:36.129944 INFO::Creating boxplot for categorical data, Cohort vs Paenibacillus
+2025-11-07 18:19:36.377874 INFO::Creating boxplot for categorical data, Cohort vs Lachnospiraceae.UCG.004
+2025-11-07 18:19:36.632587 INFO::Creating boxplot for categorical data, Cohort vs Bacteroides
+2025-11-07 18:19:36.877127 INFO::Creating boxplot for categorical data, Cohort vs Jeotgalibaca
+2025-11-07 18:19:37.14652 INFO::Creating boxplot for categorical data, Cohort vs Rikenellaceae.RC9.gut.group
+2025-11-07 18:19:37.402429 INFO::Creating boxplot for categorical data, Cohort vs Lysinibacillus
+2025-11-07 18:19:37.664972 INFO::Creating boxplot for categorical data, Cohort vs Coprococcus
+2025-11-07 18:19:37.914258 INFO::Creating boxplot for categorical data, Cohort vs Pseudoclavibacter
+2025-11-07 18:19:38.171193 INFO::Creating boxplot for categorical data, Cohort vs Christensenellaceae.R.7.group
+2025-11-07 18:19:38.429975 INFO::Creating boxplot for categorical data, Cohort vs Cellvibrio
+2025-11-07 18:19:38.682145 INFO::Creating boxplot for categorical data, Cohort vs dgA.11.gut.group
+2025-11-07 18:19:38.93418 INFO::Creating boxplot for categorical data, Cohort vs Prevotellaceae.UCG.003
+2025-11-07 18:19:39.187979 INFO::Creating boxplot for categorical data, Cohort vs Methanosphaera
+2025-11-07 18:19:39.450637 INFO::Creating boxplot for categorical data, Cohort vs Pseudomonas
+2025-11-07 18:19:39.706701 INFO::Creating boxplot for categorical data, Cohort vs Saccharopolyspora
+2025-11-07 18:19:39.975312 INFO::Creating boxplot for categorical data, Cohort vs Curtobacterium
+2025-11-07 18:19:40.230971 INFO::Creating boxplot for categorical data, Cohort vs X.Ruminococcus..gauvreauii.group
+2025-11-07 18:19:40.486569 INFO::Creating boxplot for categorical data, Cohort vs Clostridioides
+2025-11-07 18:19:40.749525 INFO::Creating boxplot for categorical data, Cohort vs Acholeplasma
+2025-11-07 18:19:41.008218 INFO::Creating boxplot for categorical data, Cohort vs Frondihabitans
+2025-11-07 18:19:41.266254 INFO::Creating boxplot for categorical data, Cohort vs Halomonas
+2025-11-07 18:19:41.516222 INFO::Creating boxplot for categorical data, Cohort vs Saccharopolyspora
+2025-11-07 18:19:41.770809 INFO::Creating boxplot for categorical data, Cohort vs Ignavigranum
+2025-11-07 18:19:42.027925 INFO::Creating boxplot for categorical data, Cohort vs Paracoccus
+2025-11-07 18:19:42.285799 INFO::Creating boxplot for categorical data, Cohort vs Pedobacter
+2025-11-07 18:19:42.544889 INFO::Creating boxplot for categorical data, Cohort vs Caryophanon
+2025-11-07 18:19:42.797538 INFO::Creating boxplot for categorical data, Cohort vs Anaerococcus
+2025-11-07 18:19:43.060796 INFO::Creating boxplot for categorical data, Cohort vs Frondihabitans
+2025-11-07 18:19:43.329985 INFO::Creating boxplot for categorical data, Cohort vs Weissella
+2025-11-07 18:19:43.577275 INFO::Creating boxplot for categorical data, Cohort vs Glutamicibacter
+2025-11-07 18:19:43.852655 INFO::Creating boxplot for categorical data, Cohort vs Neorhizobium
+2025-11-07 18:19:44.121591 INFO::Creating boxplot for categorical data, Cohort vs Acinetobacter
+2025-11-07 18:19:44.386017 INFO::Creating boxplot for categorical data, Cohort vs Corynebacterium
+2025-11-07 18:19:44.67664 INFO::Creating boxplot for categorical data, Cohort vs Cellulosilyticum
+2025-11-07 18:19:44.947653 INFO::Creating boxplot for categorical data, Cohort vs Allorhizobium.Neorhizobium.Pararhizobium.Rhizobium
+2025-11-07 18:19:45.227392 INFO::Creating boxplot for categorical data, Cohort vs Peptoniphilus
+2025-11-07 18:19:45.487556 INFO::Creating boxplot for categorical data, Cohort vs Psychrobacter
+2025-11-07 18:19:45.758209 INFO::Creating boxplot for categorical data, Cohort vs Monoglobus
+2025-11-07 18:19:46.023417 INFO::Creating boxplot for categorical data, Cohort vs Dorea
+2025-11-07 18:19:46.286105 INFO::Creating boxplot for categorical data, Cohort vs Methanobrevibacter
+2025-11-07 18:19:46.546187 INFO::Creating boxplot for categorical data, Cohort vs Alistipes
+2025-11-07 18:19:46.800373 INFO::Creating boxplot for categorical data, Cohort vs Aerosphaera
+2025-11-07 18:19:47.066158 INFO::Creating boxplot for categorical data, Cohort vs Aerococcus
+2025-11-07 18:19:47.316465 INFO::Creating boxplot for categorical data, Cohort vs Mogibacterium
+2025-11-07 18:19:47.590732 INFO::Creating boxplot for categorical data, Cohort vs Prevotellaceae.UCG.004
+2025-11-07 18:19:47.842776 INFO::Creating boxplot for categorical data, Cohort vs Atopostipes
+2025-11-07 18:19:48.103122 INFO::Creating boxplot for categorical data, Cohort vs Jeotgalicoccus
+2025-11-07 18:19:48.368721 INFO::Creating boxplot for categorical data, Cohort vs Dietzia
+2025-11-07 18:19:48.640607 INFO::Creating boxplot for categorical data, Cohort vs Finegoldia
+2025-11-07 18:19:48.911255 INFO::Creating boxplot for categorical data, Cohort vs Family.XIII.AD3011.group
+2025-11-07 18:19:49.17157 INFO::Creating boxplot for categorical data, Cohort vs Facklamia
+2025-11-07 18:19:49.437681 INFO::Creating boxplot for categorical data, Cohort vs X.Eubacterium..hallii.group
+2025-11-07 18:19:49.709851 INFO::Creating boxplot for categorical data, Cohort vs Alloprevotella
+2025-11-07 18:19:49.973305 INFO::Creating boxplot for categorical data, Cohort vs Sphingobacterium
+2025-11-07 18:19:50.235456 INFO::Creating boxplot for categorical data, Cohort vs Mycoplasma
+2025-11-07 18:19:50.500312 INFO::Creating boxplot for categorical data, Cohort vs Levilactobacillus
+2025-11-07 18:19:50.762582 INFO::Creating boxplot for categorical data, Cohort vs Ruminococcus
+2025-11-07 18:19:51.012898 INFO::Creating boxplot for categorical data, Cohort vs UCG.001
+2025-11-07 18:19:51.27253 INFO::Creating boxplot for categorical data, Cohort vs Brachybacterium
+2025-11-07 18:19:51.530445 INFO::Creating boxplot for categorical data, Cohort vs Flavobacterium
+2025-11-07 18:19:51.809373 INFO::Creating boxplot for categorical data, Cohort vs Lachnospiraceae.UCG.001
+2025-11-07 18:19:52.073839 INFO::Creating boxplot for categorical data, Cohort vs Devosia
+2025-11-07 18:19:52.322249 INFO::Creating boxplot for categorical data, Cohort vs Flaviflexus
+2025-11-07 18:19:52.58352 INFO::Creating boxplot for categorical data, Cohort vs Filobacterium
+2025-11-07 18:19:52.83019 INFO::Creating boxplot for categorical data, Cohort vs Knoellia
+2025-11-07 18:19:53.095591 INFO::Creating boxplot for categorical data, Cohort vs Parasutterella
+2025-11-07 18:19:53.364214 INFO::Creating boxplot for categorical data, Cohort vs Treponema
+2025-11-07 18:19:53.620176 INFO::Creating boxplot for categorical data, Cohort vs Carnobacterium
+2025-11-07 18:19:53.891696 INFO::Creating boxplot for categorical data, Cohort vs Sphingomonas
+2025-11-07 18:19:54.198339 INFO::Creating boxplot for categorical data, Cohort vs Nocardiopsis
+2025-11-07 18:19:54.46255 INFO::Creating boxplot for categorical data, Cohort vs Lactococcus
+2025-11-07 18:19:54.735254 INFO::Creating boxplot for categorical data, Cohort vs NK4A214.group
+2025-11-07 18:19:54.990418 INFO::Creating boxplot for categorical data, Cohort vs Phascolarctobacterium
+2025-11-07 18:19:55.256922 INFO::Creating boxplot for categorical data, Cohort vs Leucobacter
+2025-11-07 18:19:55.505878 INFO::Creating boxplot for categorical data, Cohort vs Prevotellaceae.UCG.001
+2025-11-07 18:19:55.769247 INFO::Creating boxplot for categorical data, Cohort vs UCG.009
+2025-11-07 18:19:56.024105 INFO::Creating boxplot for categorical data, Cohort vs Gemella
+2025-11-07 18:19:56.284133 INFO::Creating boxplot for categorical data, Cohort vs Atopostipes
+2025-11-07 18:19:56.545227 INFO::Creating boxplot for categorical data, Cohort vs Akkermansia
+2025-11-07 18:19:56.808859 INFO::Creating boxplot for categorical data, Cohort vs Colidextribacter
+2025-11-07 18:19:57.068858 INFO::Creating boxplot for categorical data, Cohort vs Acinetobacter
+2025-11-07 18:19:57.318791 INFO::Creating boxplot for categorical data, Cohort vs Pseudarthrobacter
+2025-11-07 18:19:57.595053 INFO::Creating boxplot for categorical data, Cohort vs Stenotrophomonas
+2025-11-07 18:19:57.844579 INFO::Creating boxplot for categorical data, Cohort vs Sphingomonas
+2025-11-07 18:19:58.104444 INFO::Creating boxplot for categorical data, Cohort vs Dolosigranulum
+2025-11-07 18:19:58.365921 INFO::Creating boxplot for categorical data, Cohort vs Latilactobacillus
+2025-11-07 18:19:58.630044 INFO::Creating boxplot for categorical data, Cohort vs Citricoccus
+2025-11-07 18:19:58.891453 INFO::Creating boxplot for categorical data, Cohort vs X.Eubacterium..nodatum.group
+2025-11-07 18:19:59.139288 INFO::Creating boxplot for categorical data, Cohort vs Macrococcus
+2025-11-07 18:19:59.396441 INFO::Creating boxplot for categorical data, Cohort vs Jeotgalicoccus
+2025-11-07 18:19:59.645795 INFO::Creating boxplot for categorical data, Cohort vs Anaerosporobacter
+2025-11-07 18:19:59.939409 INFO::Creating boxplot for categorical data, Cohort vs Arcobacter
+2025-11-07 18:20:00.208318 INFO::Creating boxplot for categorical data, Cohort vs Agathobacter
+2025-11-07 18:20:00.456959 INFO::Creating boxplot for categorical data, Cohort vs Chryseobacterium
+2025-11-07 18:20:00.715623 INFO::Creating boxplot for categorical data, Cohort vs Ornithinimicrobium
+2025-11-07 18:20:00.975515 INFO::Creating boxplot for categorical data, Cohort vs Planococcus
+2025-11-07 18:20:01.23445 INFO::Creating boxplot for categorical data, Cohort vs Methylobacterium.Methylorubrum
+2025-11-07 18:20:01.503599 INFO::Creating boxplot for categorical data, Cohort vs Cutibacterium
+2025-11-07 18:20:01.76129 INFO::Creating boxplot for categorical data, Cohort vs Bacillus
+2025-11-07 18:20:02.018844 INFO::Creating boxplot for categorical data, Cohort vs Acetitomaculum
+2025-11-07 18:20:02.274213 INFO::Creating boxplot for categorical data, Cohort vs Thermoactinomyces
+2025-11-07 18:20:02.543226 INFO::Creating boxplot for categorical data, Cohort vs Kurthia
+2025-11-07 18:20:02.813501 INFO::Creating boxplot for categorical data, Cohort vs Aerococcus
+2025-11-07 18:20:03.073264 INFO::Creating boxplot for categorical data, Cohort vs Ornithinicoccus
+2025-11-07 18:20:03.354704 INFO::Creating boxplot for categorical data, Cohort vs Rhodococcus
+2025-11-07 18:20:03.6069 INFO::Creating boxplot for categorical data, Cohort vs Glutamicibacter
+2025-11-07 18:20:03.891065 INFO::Creating boxplot for categorical data, Cohort vs Alistipes
+2025-11-07 18:20:04.165363 INFO::Creating boxplot for categorical data, Cohort vs Lachnospiraceae.AC2044.group
+2025-11-07 18:20:04.422792 INFO::Creating boxplot for categorical data, Cohort vs Frisingicoccus
+2025-11-07 18:20:04.692092 INFO::Creating boxplot for categorical data, Cohort vs Roseburia
+2025-11-07 18:20:04.942781 INFO::Creating boxplot for categorical data, Cohort vs Comamonas
+2025-11-07 18:20:05.206051 INFO::Creating boxplot for categorical data, Cohort vs Faucicola
+2025-11-07 18:20:05.46126 INFO::Creating boxplot for categorical data, Cohort vs Nocardiopsis
+2025-11-07 18:20:05.736627 INFO::Creating boxplot for categorical data, Cohort vs Facklamia
+2025-11-07 18:20:05.991485 INFO::Creating boxplot for categorical data, Cohort vs Actinobacillus
+2025-11-07 18:20:06.265687 INFO::Creating boxplot for categorical data, Cohort vs W5053
+2025-11-07 18:20:06.529395 INFO::Creating boxplot for categorical data, Cohort vs Haemophilus
+2025-11-07 18:20:06.780662 INFO::Creating boxplot for categorical data, Cohort vs X.Ruminococcus..torques.group
+2025-11-07 18:20:07.049674 INFO::Creating boxplot for categorical data, Cohort vs Brevibacterium
+2025-11-07 18:20:07.300107 INFO::Creating boxplot for categorical data, Cohort vs Methanobrevibacter
+2025-11-07 18:20:07.574147 INFO::Creating boxplot for categorical data, Cohort vs Nesterenkonia
+2025-11-07 18:20:07.834201 INFO::Creating boxplot for categorical data, Cohort vs Paracoccus
+2025-11-07 18:20:08.097792 INFO::Creating boxplot for categorical data, Cohort vs Psychrobacter
+2025-11-07 18:20:08.370425 INFO::Creating boxplot for categorical data, Cohort vs Ruminobacter
+2025-11-07 18:20:08.636867 INFO::Creating boxplot for categorical data, Cohort vs X.Eubacterium..brachy.group
+2025-11-07 18:20:08.909715 INFO::Creating boxplot for categorical data, Cohort vs Lachnospiraceae.UCG.010
+2025-11-07 18:20:09.163474 INFO::Creating boxplot for categorical data, Cohort vs Brachybacterium
+2025-11-07 18:20:09.42911 INFO::Creating boxplot for categorical data, Cohort vs Marinospirillum
+2025-11-07 18:20:09.710179 INFO::Creating boxplot for categorical data, Cohort vs Streptococcus
+2025-11-07 18:20:09.966017 INFO::Creating boxplot for categorical data, Cohort vs Luteimonas
+2025-11-07 18:20:10.244171 INFO::Creating boxplot for categorical data, Cohort vs Mogibacterium
+2025-11-07 18:20:10.497098 INFO::Creating boxplot for categorical data, Cohort vs Paeniglutamicibacter
+2025-11-07 18:20:10.763399 INFO::Creating boxplot for categorical data, Cohort vs Dietzia
+2025-11-07 18:20:11.023679 INFO::Creating boxplot for categorical data, Cohort vs Hymenobacter
+2025-11-07 18:20:11.296938 INFO::Creating boxplot for categorical data, Cohort vs Nocardioides
+2025-11-07 18:20:11.56683 INFO::Creating boxplot for categorical data, Cohort vs Methylobacterium.Methylorubrum
+2025-11-07 18:20:11.819548 INFO::Creating boxplot for categorical data, Cohort vs Veillonella
+2025-11-07 18:20:12.091326 INFO::Creating boxplot for categorical data, Cohort vs Kocuria
+2025-11-07 18:20:12.360508 INFO::Creating boxplot for categorical data, Cohort vs Planococcus
+2025-11-07 18:20:12.621592 INFO::Creating boxplot for categorical data, Cohort vs Succinivibrio
+2025-11-07 18:20:12.889621 INFO::Creating boxplot for categorical data, Cohort vs Lawsonella
+2025-11-07 18:20:13.142545 INFO::Creating boxplot for categorical data, Cohort vs dgA.11.gut.group
+2025-11-07 18:20:13.673117 INFO::Creating boxplot for categorical data, Cohort vs Mailhella
+2025-11-07 18:20:13.93868 INFO::Creating boxplot for categorical data, Cohort vs Cellvibrio
+2025-11-07 18:20:14.191477 INFO::Creating boxplot for categorical data, Cohort vs Knoellia
+2025-11-07 18:20:14.447716 INFO::Creating boxplot for categorical data, Cohort vs Erysipelothrix
+2025-11-07 18:20:14.698076 INFO::Creating boxplot for categorical data, Cohort vs Massilia
+2025-11-07 18:20:14.952294 INFO::Creating boxplot for categorical data, Cohort vs Actinomyces
+2025-11-07 18:20:15.202636 INFO::Creating boxplot for categorical data, Cohort vs Sanguibacter.Flavimobilis
+2025-11-07 18:20:15.452199 INFO::Creating boxplot for categorical data, Cohort vs Enterococcus
+2025-11-07 18:20:15.696267 INFO::Creating boxplot for categorical data, Cohort vs Massilia
+2025-11-07 18:20:15.949856 INFO::Creating boxplot for categorical data, Cohort vs Acholeplasma
+2025-11-07 18:20:16.195778 INFO::Creating boxplot for categorical data, Cohort vs Brevundimonas
+2025-11-07 18:20:16.444458 INFO::Creating boxplot for categorical data, Cohort vs Family.XIII.AD3011.group
+2025-11-07 18:20:16.699544 INFO::Creating boxplot for categorical data, Cohort vs Marvinbryantia
+2025-11-07 18:20:16.94282 INFO::Creating boxplot for categorical data, Cohort vs Treponema
+2025-11-07 18:20:17.19371 INFO::Creating boxplot for categorical data, Cohort vs Bifidobacterium
+2025-11-07 18:20:17.442492 INFO::Creating boxplot for categorical data, Cohort vs Alloprevotella
+2025-11-07 18:20:17.701236 INFO::Creating boxplot for categorical data, Cohort vs Methanosphaera
+2025-11-07 18:20:17.950564 INFO::Creating boxplot for categorical data, Cohort vs Lachnospiraceae.UCG.004
+2025-11-07 18:20:18.196843 INFO::Creating boxplot for categorical data, Cohort vs Mannheimia
+2025-11-07 18:20:18.445844 INFO::Creating boxplot for categorical data, Cohort vs Aliicoccus
+2025-11-07 18:20:18.690574 INFO::Creating boxplot for categorical data, Cohort vs Acetitomaculum
+2025-11-07 18:20:18.964289 INFO::Creating boxplot for categorical data, Cohort vs Aureimonas
+2025-11-07 18:20:19.226564 INFO::Creating boxplot for categorical data, Cohort vs Salinicoccus
+2025-11-07 18:20:19.477732 INFO::Creating boxplot for categorical data, Cohort vs Coprococcus
+2025-11-07 18:20:19.734596 INFO::Creating boxplot for categorical data, Cohort vs Chryseobacterium
+2025-11-07 18:20:19.983482 INFO::Creating boxplot for categorical data, Cohort vs Corynebacterium
+2025-11-07 18:20:20.240685 INFO::Creating boxplot for categorical data, Cohort vs Pseudarthrobacter
+2025-11-07 18:20:20.505443 INFO::Creating boxplot for categorical data, Cohort vs Ornithinimicrobium
+2025-11-07 18:20:20.754988 INFO::Creating boxplot for categorical data, Cohort vs Anaerosporobacter
+2025-11-07 18:20:21.002719 INFO::Creating boxplot for categorical data, Cohort vs Ruminobacter
+2025-11-07 18:20:21.250172 INFO::Creating boxplot for categorical data, Cohort vs Rhodococcus
+2025-11-07 18:20:21.511656 INFO::Creating boxplot for categorical data, Cohort vs Thermomonas
+2025-11-07 18:20:21.75627 INFO::Creating boxplot for categorical data, Cohort vs Enhydrobacter
+2025-11-07 18:20:22.011929 INFO::Creating boxplot for categorical data, Cohort vs UCG.009
+2025-11-07 18:20:22.267921 INFO::Creating boxplot for categorical data, Cohort vs Brevundimonas
+2025-11-07 18:20:22.512538 INFO::Creating boxplot for categorical data, Cohort vs Sphingobacterium
+2025-11-07 18:20:22.783246 INFO::Creating boxplot for categorical data, Cohort vs Erysipelothrix
+2025-11-07 18:20:23.03553 INFO::Creating boxplot for categorical data, Cohort vs Hymenobacter
+2025-11-07 18:20:23.293086 INFO::Creating boxplot for categorical data, Cohort vs Brevibacterium
+2025-11-07 18:20:23.537621 INFO::Creating boxplot for categorical data, Cohort vs Agathobacter
+2025-11-07 18:20:23.805257 INFO::Creating boxplot for categorical data, Cohort vs Aureimonas
+2025-11-07 18:20:24.058473 INFO::Creating boxplot for categorical data, Cohort vs Flaviflexus
+2025-11-07 18:20:24.309943 INFO::Creating boxplot for categorical data, Cohort vs Paeniglutamicibacter
+2025-11-07 18:20:24.568299 INFO::Creating boxplot for categorical data, Cohort vs Leucobacter
+2025-11-07 18:20:24.815799 INFO::Creating boxplot for categorical data, Cohort vs Thermoactinomyces
+2025-11-07 18:20:25.071485 INFO::Creating boxplot for categorical data, Cohort vs Ruminococcus
+2025-11-07 18:20:25.318155 INFO::Creating boxplot for categorical data, Cohort vs X.Eubacterium..nodatum.group
+2025-11-07 18:20:25.579304 INFO::Creating boxplot for categorical data, Cohort vs Bergeyella
+2025-11-07 18:20:25.827688 INFO::Creating boxplot for categorical data, Cohort vs Flavobacterium
+2025-11-07 18:20:26.083421 INFO::Creating boxplot for categorical data, Cohort vs Nocardioides
+2025-11-07 18:20:26.345262 INFO::Creating boxplot for categorical data, Cohort vs Bifidobacterium
+2025-11-07 18:20:26.606833 INFO::Creating boxplot for categorical data, Cohort vs Akkermansia
+2025-11-07 18:20:26.874161 INFO::Creating boxplot for categorical data, Cohort vs Roseburia
+2025-11-07 18:20:27.122543 INFO::Creating boxplot for categorical data, Cohort vs Thermomonas
+2025-11-07 18:20:27.380396 INFO::Creating boxplot for categorical data, Cohort vs Kocuria
+2025-11-07 18:20:27.625165 INFO::Creating boxplot for categorical data, Cohort vs Campylobacter
+2025-11-07 18:20:27.892677 INFO::Creating boxplot for categorical data, Cohort vs Prevotellaceae.UCG.001
+2025-11-07 18:20:28.151192 INFO::Creating boxplot for categorical data, Cohort vs Stenotrophomonas
+2025-11-07 18:20:28.400972 INFO::Creating boxplot for categorical data, Cohort vs Citricoccus
+2025-11-07 18:20:28.660097 INFO::Creating boxplot for categorical data, Cohort vs Prevotella_7
+2025-11-07 18:20:28.904538 INFO::Creating boxplot for categorical data, Cohort vs Sanguibacter.Flavimobilis
+2025-11-07 18:20:29.159172 INFO::Creating boxplot for categorical data, Cohort vs Luteimonas
+2025-11-07 18:20:29.406395 INFO::Creating boxplot for categorical data, Cohort vs Colidextribacter
+2025-11-07 18:20:29.659417 INFO::Creating boxplot for categorical data, Cohort vs Haemophilus
+2025-11-07 18:20:29.922876 INFO::Creating boxplot for categorical data, Cohort vs Ornithinicoccus
+2025-11-07 18:20:30.171953 INFO::Creating boxplot for categorical data, Cohort vs Lachnospiraceae.UCG.001
+2025-11-07 18:20:30.430089 INFO::Creating boxplot for categorical data, Cohort vs Salinicoccus
+2025-11-07 18:20:30.679239 INFO::Creating boxplot for categorical data, Cohort vs Halomonas
+2025-11-07 18:20:30.938943 INFO::Creating boxplot for categorical data, Cohort vs Staphylococcus
+2025-11-07 18:20:31.197233 INFO::Creating boxplot for categorical data, Cohort vs Marinospirillum
+2025-11-07 18:20:31.463505 INFO::Creating boxplot for categorical data, Cohort vs Blautia
+2025-11-07 18:20:31.718452 INFO::Creating boxplot for categorical data, Cohort vs Parasutterella
+2025-11-07 18:20:32.00586 INFO::Creating boxplot for categorical data, Cohort vs Staphylococcus
+2025-11-07 18:20:32.258417 INFO::Creating boxplot for categorical data, Cohort vs Allorhizobium.Neorhizobium.Pararhizobium.Rhizobium
+2025-11-07 18:20:32.545836 INFO::Creating boxplot for categorical data, Cohort vs Frisingicoccus
+2025-11-07 18:20:32.792294 INFO::Creating boxplot for categorical data, Cohort vs Carnobacterium
+2025-11-07 18:20:33.054338 INFO::Creating boxplot for categorical data, Cohort vs Enhydrobacter
+2025-11-07 18:20:33.313986 INFO::Creating boxplot for categorical data, Cohort vs Lactococcus
+2025-11-07 18:20:33.577565 INFO::Creating boxplot for categorical data, Cohort vs Veillonella
+2025-11-07 18:20:33.838871 INFO::Creating boxplot for categorical data, Cohort vs Moraxella
+2025-11-07 18:20:34.103648 INFO::Creating boxplot for categorical data, Cohort vs Paenibacillus
+2025-11-07 18:20:34.367418 INFO::Creating boxplot for categorical data, Cohort vs Marvinbryantia
+2025-11-07 18:20:34.615097 INFO::Creating boxplot for categorical data, Cohort vs X.Ruminococcus..torques.group
+2025-11-07 18:20:34.873494 INFO::Creating boxplot for categorical data, Cohort vs Acetobacter
+2025-11-07 18:20:35.126526 INFO::Creating boxplot for categorical data, Cohort vs Actinomyces
+2025-11-07 18:20:35.390106 INFO::Creating boxplot for categorical data, Cohort vs Finegoldia
+2025-11-07 18:20:35.644976 INFO::Creating boxplot for categorical data, Cohort vs Streptococcus
+2025-11-07 18:20:35.908878 INFO::Creating boxplot for categorical data, Cohort vs W5053
+2025-11-07 18:20:36.171259 INFO::Creating boxplot for categorical data, Cohort vs Prevotella_7
+2025-11-07 18:20:36.429117 INFO::Creating boxplot for categorical data, Cohort vs Cutibacterium
+2025-11-07 18:20:36.687001 INFO::Creating boxplot for categorical data, Cohort vs Gemella
+2025-11-07 18:20:36.94507 INFO::Creating boxplot for categorical data, Cohort vs Pseudoclavibacter
+2025-11-07 18:20:37.204722 INFO::Creating boxplot for categorical data, Cohort vs Pediococcus
+2025-11-07 18:20:37.45264 INFO::Creating boxplot for categorical data, Cohort vs Lactobacillus

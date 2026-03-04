@@ -1,0 +1,10 @@
+MaASLin2 Linear Mixed Modeling of Cohort with Non-Farmer as Reference
+Relevant variables:
+- Random effects: Season, Year, Site, Subject
+- Fixed effects: Cohort
+
+Data:
+Cohort-Non-Farmer-Reference/significant_results.tsv : Significant associations
+MaAsLin2-Abundance-Matrix.csv: Relative Abundance matrix input
+MaAsLin2-Metadata.csv: Sample metadata input
+MaAsLin2-Significant-Hits-For-Cow-And-Farmer.csv: Significant associations for BOTH Cow & Farmer cohorts
