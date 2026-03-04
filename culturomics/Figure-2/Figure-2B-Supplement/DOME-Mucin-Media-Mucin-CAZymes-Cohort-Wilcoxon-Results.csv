@@ -1,0 +1,4 @@
+"Group1","Group2","p.adj"
+"Farmer","Cow",0.89
+"Farmer","Non-Farmer",0.11
+"Cow","Non-Farmer",0.11
