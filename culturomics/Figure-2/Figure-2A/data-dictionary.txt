@@ -1,0 +1,5 @@
+Taxonomic Classification & Phylogenetic Tree of DOME Isolates
+Data:
+gtdbtk-taxonomic-hits.tsv: Taxonomic classifications of DOME isolates to closest (based upon ANI) organism in GTDB via GTDB-Tk
+gtdbtk-filtered-taxonomic-hits.tsv: Filtered taxonomic classifications - Isolate Name & Classification
+DOME-Isolates.tree: Generated phylogenetic tree from GTDB-Tk (de_nov_wf)
