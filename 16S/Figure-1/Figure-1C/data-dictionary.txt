@@ -1,0 +1,7 @@
+Longitudinal Richness in Nasal 16S Samples
+Data:
+16S-Nasal-ASV-Counts.csv: ASV counts from 16S Nasal samples
+16S-Nasal-Richness.csv: Richness matrix
+16S-Nasal-Richness-With-Metadata.csv: Richness matrix merged with metadata
+16S-Richness-Wilcoxon-Testing.csv: Wilcoxon tests of Richness with samples grouped to Season_Year_Cohort
+16S-Richness-Wilcoxon-Testing-Significant-Only.csv: Significant Wilcoxon tests of Richness with samples grouped to Season_Year_Cohort

@@ -1,0 +1,7 @@
+Principal Coordinate Analysis (PCoA) of Bray-Curtis Distances of Genus Compositions of Nasal 16S Samples
+Data:
+DOME-Final-16S-Nasal-Metadata.csv: Metadata for Nasal 16S samples
+DOME-16S-Taxa-Counts-Genus.csv: Raw taxa counts of 16S samples
+16S-Nasal-Filtered-Relative-Abundance.csv: Calculated relative abundance from filtered taxa counts of 16S samples
+16S-Nasal-Bray-Curtis.csv: Calculated Bray-Curtis distance (raw vector)
+16S-Nasal-Bray-Curtis-PCoA.csv: Principal coordinate axis scores of Bray–Curtis dissimilarities of genus-level relative abundance data

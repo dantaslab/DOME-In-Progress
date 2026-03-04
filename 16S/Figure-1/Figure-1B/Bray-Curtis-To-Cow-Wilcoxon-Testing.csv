@@ -1,0 +1,7 @@
+"Group1","Group2","P_value","P_formatted","Adjusted_P","Significance","Metric","Method"
+"Non-Farmer Cow Different Site","Non-Farmer Cow Same Site",0.0779769403768168,"0.078",0.094,"ns","MeanBrayCurtis","Wilcoxon"
+"Non-Farmer Cow Different Site","Farmer Cow Different Site",4.29519186781085e-30,"<2e-16",2.6e-29,"****","MeanBrayCurtis","Wilcoxon"
+"Non-Farmer Cow Different Site","Farmer Cow Same Site",5.49789145986127e-23,"<2e-16",8.2e-23,"****","MeanBrayCurtis","Wilcoxon"
+"Non-Farmer Cow Same Site","Farmer Cow Different Site",1.51889290290583e-27,"<2e-16",4.6e-27,"****","MeanBrayCurtis","Wilcoxon"
+"Non-Farmer Cow Same Site","Farmer Cow Same Site",7.40382123324164e-24,"<2e-16",1.5e-23,"****","MeanBrayCurtis","Wilcoxon"
+"Farmer Cow Different Site","Farmer Cow Same Site",0.4405389934198,"0.441",0.44,"ns","MeanBrayCurtis","Wilcoxon"

@@ -1,0 +1,10 @@
+Bray-Curtis Distance of Humans (Farmer & Non-Farmer) to Cows in Nasal 16S Samples
+Data:
+DOME-Final-16S-Nasal-Metadata.csv: Metadata for Nasal 16S samples
+DOME-16S-Taxa-Counts-Genus.csv: Raw taxa counts of 16S samples
+16S-Nasal-Filtered-Relative-Abundance.csv: Calculated relative abundance from filtered taxa counts of 16S samples
+16S-Nasal-Bray-Curtis.csv: Calculated Bray-Curtis distance (raw vector)
+16S-Nasal-Bray-Curtis-Distance-As-Matrix.csv: Calculated Bray-Curtis distances as a matrix
+16S-Nasal-Bray-Curtis-Distance-Human-To-Cow.csv: Filtered Bray-Curtis distances and pairwise comparisons
+Bray-Curtis-To-Cow-Wilcoxon-Testing.csv: Wilcoxon tests of Bray-Curtis distances of Humans to Cow
+Bray-Curtis-To-Cow-Wilcoxon-Testing-Sample-Sizes.csv: Sample sizes of Bray-Curtis distance pairwise comparisons 
