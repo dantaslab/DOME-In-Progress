@@ -1,0 +1,9 @@
+PERMANOVA of Bray-Curtis Distance Across Study Variables (Site, Year, Season) for Repeat Sampling
+Data:
+PERMANOVA-Abundance-Matrix.csv: Relative abundance matrix
+PERMANOVA-Bray-Curtis.csv: Calculated Bray-Curtis distance
+PERMANOVA-Nasal-Metadata.csv: Filtered metadata (matched to abundance matrix) for PERMANOVA
+PERMANOVA-Sample-Data.csv: Sample-level metadata for PERMANOVA
+PERMANOVA-Subject-Data.csv: Subject-level metadata for PERMANOVA
+PERMANOVA-Specified-Variables-Cohort-Site-Year-Season.csv: PERMANOVA results for specified variables (specified: Cohort, Site, Year & Season)
+PERMANOVA-Sample-Data-Site-Year-Season.csv: PERMANOVA results for variables in Sample-Data (Site, Year & Season)
